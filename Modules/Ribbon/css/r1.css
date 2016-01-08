@@ -1,0 +1,43 @@
+
+
+.box {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    background: #8c8c8c;
+    z-index: -1;
+}
+
+.ribbon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+   font-size:12px;
+    box-shadow: 0 0 0 3px #b30000;
+    border: 1px solid white;
+    transform : rotate(-45deg);
+    -webkit-transform : rotate(-45deg);
+    width: 150px;
+    display: block;
+    background: #b30000;
+    position: absolute;
+    top: 25px;
+    left: -41px;
+}
+RStyle.cssOpen
+2 of 2 items
+Ribbon.htmlRStyle.cssDisplaying RStyle.css.

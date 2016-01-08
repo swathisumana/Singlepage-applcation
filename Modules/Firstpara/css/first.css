@@ -1,0 +1,9 @@
+.hhhh p::first-line {
+    color: #00ffff;
+    font-variant:bold ;
+    font-size: 20px;
+} 
+.hhhh p::first-letter {
+	font-weight: bold;
+	font-size: 20px;
+}

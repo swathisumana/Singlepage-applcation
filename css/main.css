@@ -1,0 +1,99 @@
+@import url("../Modules/menu/css/menu.css");
+@import url("../Modules/Blurtxt/css/Blurred.css");
+@import url("../Modules/Borderimage/css/border.css");
+@import url("../Modules/Button/css/button.css");
+@import url("../Modules/CircleImage/css/image.css");
+@import url("../Modules/columns/css/column.css");
+@import url("../Modules/Empty/css/format.css");
+@import url("../Modules/Firstpara/css/first.css");
+@import url("../Modules/Formatfirstlast/css/Firstlast.css");
+@import url("../Modules/Hoverbox/css/pop.css");
+@import url("../Modules/Imagehover/css/hover1.css");
+@import url("../Modules/Orderdlist/css/list.css");
+@import url("../Modules/Ribbon/css/r1.css");
+@import url("../Modules/Threeboxes/css/box.css");
+@import url("../Modules/Humanface/css/face.css");
+.body7 {
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+
+.body1 {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.one {
+    height: 30px;
+    width: 30px;
+    display: block;
+}
+
+#icons {
+    width: 20px;
+    height: 50px;
+    margin-left: 1300px;
+}
+
+.social {
+    margin: 2px;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.header {
+    height: 35px;
+    width: 100%;
+    background-color: #cc0000;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman";
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #663300;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: yellow;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        height: 10px;
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .body7 {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .body1 {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .one {
+        height: 10px;
+        width: 10px;
+    }
+}

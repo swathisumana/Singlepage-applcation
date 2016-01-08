@@ -1,0 +1,13 @@
+.format2{
+	margin-left: 400px;
+	margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    border: 1px ;
+    background-color: #ff33ff;
+}
+
+.format2:empty {
+	margin-left: 400px;
+    background-color: pink;
+}

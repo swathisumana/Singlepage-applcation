@@ -1,0 +1,19 @@
+.hover-box {
+   width: 120px;
+   height: 80px;
+   background: #5cd6d6;
+   position: relative;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius:10px;
+   margin-left: 500px;
+}
+.hover-box:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #5cd6d6;
+   border-bottom: 13px solid transparent;
+}

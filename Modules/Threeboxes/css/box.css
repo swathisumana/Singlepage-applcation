@@ -1,0 +1,30 @@
+.first-box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #bf8040;
+    color: white;
+    padding: 20px;
+}
+
+.second-box {
+    display: inline-block;
+    width: 184px;
+    height: 184px;
+    border: 8px solid #ff3333;
+    color: white;
+    padding: 20px;
+    float:left;
+}
+
+.third-box {
+    position: relative;
+    display: inline-block;
+    padding: 40px;
+    width: 160px;
+    height: 160px;
+    background-color: #33ff99;
+    color: white;
+    float:left;
+   
+}

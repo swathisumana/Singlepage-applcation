@@ -1,0 +1,9 @@
+.list{ 
+counter-reset: x; padding-left: 10px; 
+}
+.list li { 
+display: block 
+}
+.list li:before { 
+content: counters(x, ".") " "; counter-increment: x;
+}

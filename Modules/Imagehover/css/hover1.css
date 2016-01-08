@@ -1,0 +1,25 @@
+.image {
+    position: absolute;
+    height: 500px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.o1 .o2 {
+    height: 500px;
+    width: 250px;
+}
+
+.image img{
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    overflow: hidden;
+}
+
+.image img.o1:hover {
+    opacity: 0;
+    overflow: hidden;
+}

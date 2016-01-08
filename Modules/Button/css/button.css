@@ -1,0 +1,22 @@
+.button {
+    border: 3px dashed #a1a1a1;
+    padding: 20px 40px;
+    background: #dddddd;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.button:active {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transform: translateX(4px);
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.button:hover {
+    background-color: #808080
+}

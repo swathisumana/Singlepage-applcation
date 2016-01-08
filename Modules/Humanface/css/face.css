@@ -1,0 +1,358 @@
+.divh {
+    border-style: solid;
+    border-width: 5px;
+    height: 500px;
+    width: 600px;
+    border-radius: 250px;
+    margin-right: 100px;
+    background-color: #ffff1a;
+}
+
+@keyframes anticlock-move {
+    0% {
+        transform: rotate(360deg);
+        background: red;
+    }
+    25% {
+        transform: rotate(270deg);
+        background: blue;
+    }
+    50% {
+        transform: rotate(180deg);
+        background: yellow;
+    }
+    75% {
+        transform: rotate(90deg);
+        background: green;
+    }
+    100% {
+        transform: rotate(0deg);
+        background: red;
+    }
+}
+
+@keyframes clock-move {
+    0% {
+        transform: rotate(0deg);
+        background: red;
+    }
+    25% {
+        transform: rotate(90deg);
+        background: blue;
+    }
+    50% {
+        transform: rotate(180deg);
+        background: yellow;
+    }
+    75% {
+        transform: rotate(270deg);
+        background: green;
+    }
+    100% {
+        transform: rotate(360deg);
+        background: red;
+    }
+}
+
+@keyframes nose-zooml {
+    0% {
+        transform: scale(0.5, 0.5);
+        background: red;
+    }
+    25% {
+        transform: scale(2, 3);
+        background: blue;
+    }
+    50% {
+        transform: scale(o.5, 0.5);
+        background: pink;
+    }
+    75% {
+        transform: scale(2, 3);
+        background: green;
+    }
+    100% {
+        transform: scale(0.5, 0.5);
+        background: cyan;
+    }
+}
+
+@keyframes nose-zoomr {
+    0% {
+        transform: scale(0.5, 0.5);
+        background: yellow;
+    }
+    25% {
+        transform: scale(2, 3);
+        background: red;
+    }
+    50% {
+        transform: scale(o.5, 0.5);
+        background: pink;
+    }
+    75% {
+        transform: scale(2, 3);
+        background: green;
+    }
+    100% {
+        transform: scale(0.5, 0.5);
+        background: cyan;
+    }
+}
+
+.divh .eye {
+    border-style: solid;
+    border-width: 5px;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #ff6633;
+}
+
+.divh .left-eye {
+    top: 500px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 100px;
+    animation: anticlock-move 1s infinite;
+}
+
+.divh .right-eye {
+    top: 500px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 100px;
+    animation: clock-move 1s infinite;
+}
+
+.divh .eyeball {
+    border-radius: 20px;
+    border-style: solid;
+    height: 20px;
+    width: 20px;
+    background-color: cyan;
+    border-radius: 10px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 30px animation: clock-move 5s infinite;
+}
+
+.divh .leftnose {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 90px;
+    margin-left: 265px;
+    float: left;
+    animation: nose-zooml 1s infinite;
+}
+
+.divh .rightnose {
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 90px;
+    margin-right: 265px;
+    float: right;
+    animation: nose-zooml 1s infinite;
+}
+
+.divh .lips {
+    margin-top: 380px;
+    margin-left: 0px;
+}
+
+.divh .span-prop {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    text-transform: lowercase;
+    top: -80px;
+    left: -30px;
+    display: none;
+    padding: 0 20px;
+}
+
+.divh .divp {
+    width: 0px;
+    height: 0px;
+    border: 0px;
+}
+
+#s1 {
+    margin: 400px 0 0 120px;
+}
+
+#s2 {
+    margin: 400px 0 0 400px;
+}
+
+#s3 {
+    margin: 550px 0 0 300px;
+}
+
+#s4 {
+    margin: 700px 0 0 300px;
+}
+
+span:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #dfdfdf;
+    border-right: 5px solid #dfdfdf;
+    background: #f8f8f8;
+    left: 50%;
+    margin-left: -5px;
+    transform: rotate(45deg);
+}
+
+.first3:hover span {
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .divh {
+        border-style: solid;
+        border-width: 2px;
+        height: 100px;
+        width: 200px;
+        border-radius: 50px;
+        margin-right: 30px;
+        background-color: #ffff1a;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .eye {
+        border-style: solid;
+        border-width: 2px;
+        height: 20px;
+        width: 20px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .left-eye {
+        top: 50px;
+        float: left;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .right-eye {
+        top: 50px;
+        float: right;
+        margin-right: 60px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .eyeball {
+        border-radius: 10px;
+        height: 5px;
+        width: 5px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        margin-left: 15px animation: clock-move 5s infinite;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .leftnose {
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+        border-width: 10px;
+        margin-top: 45px;
+        margin-left: 130px;
+        float: left;
+        animation: nose-zooml 1s infinite;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .rightnose {
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+        border-width: 10px;
+        margin-top: 45px;
+        margin-right: 130px;
+        float: right;
+        animation: nose-zooml 1s infinite;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .lips {
+        margin-top: 190px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .divh .span-prop {
+        background: none repeat scroll 0 0 #F8F8F8;
+        border: 5px solid #DFDFDF;
+        font-size: 13px;
+        height: 30px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        position: absolute;
+        text-align: center;
+        text-transform: lowercase;
+        top: -40px;
+        left: -15px;
+        display: none;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #s1 {
+        margin: 200px 0 0 60px;
+    }
+    #s2 {
+        margin: 200px 0 0 200px;
+    }
+    #s3 {
+        margin: 225px 0 0 150px;
+    }
+    #s4 {
+        margin: 350px 0 0 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    span:after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        width: 5px;
+        height: 5px;
+        border-bottom: 2px solid #dfdfdf;
+        border-right: 2px solid #dfdfdf;
+        left: 25%;
+        margin-left: -2px;
+        transform: rotate(45deg);
+    }
+}
